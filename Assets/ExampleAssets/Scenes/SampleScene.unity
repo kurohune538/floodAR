@@ -403,6 +403,8 @@ GameObject:
   - component: {fileID: 223974229}
   - component: {fileID: 223974228}
   - component: {fileID: 223974227}
+  - component: {fileID: 223974230}
+  - component: {fileID: 223974231}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -422,7 +424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlanePrefab: {fileID: 4405605787315856586, guid: be90741ede3324c25b7ff6c55be8bc46,
+  m_PlanePrefab: {fileID: 564437679937828290, guid: be90741ede3324c25b7ff6c55be8bc46,
     type: 3}
   m_DetectionMode: -1
 --- !u!114 &223974228
@@ -458,6 +460,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &223974230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223974226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c41c445be46c41eeb20fa8151f13ca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redCube: {fileID: 7414126791596113512, guid: fe573e7abb8af466791f07600c0785e3, type: 3}
+--- !u!114 &223974231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223974226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RaycastPrefab: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
